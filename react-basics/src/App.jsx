@@ -1,11 +1,17 @@
 import React from 'react';
 import UserCard from './UserCard';
 import CounterApp from './CounterApp';
+import LoginForm from './LoginForm';
 
 function App() {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h2>ReactJS Learning App</h2>
+      <hr />
+      
+      {/* Day 4 Component */}
+      <LoginForm />
+
       <hr />
       
       {/* Day 3: Counter App */}
