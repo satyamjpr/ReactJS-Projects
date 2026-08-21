@@ -1,0 +1,25 @@
+import React from 'react';
+import UserCard from './UserCard';
+import CounterApp from './CounterApp';
+
+function App() {
+  return (
+    <div style={{ padding: "20px", fontFamily: "Arial" }}>
+      <h2>ReactJS Learning App</h2>
+      <hr />
+      
+      {/* Day 3: Counter App */}
+      <CounterApp />
+
+      <hr />
+
+      {/* Day 2: User Cards */}
+      <h3>Day 2: User Cards (Props Example)</h3>
+      <UserCard name="Rahul Sharma" role="Frontend Developer" exp={2} location="Jaipur" />
+      <UserCard name="Amit Kumar" role="jQuery Developer" exp={4} location="Delhi" />
+      <UserCard name="Priya Singh" role="React Specialist" exp={1} location="Mumbai" />
+    </div>
+  );
+}
+
+export default App;
