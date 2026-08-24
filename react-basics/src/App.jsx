@@ -2,11 +2,17 @@ import React from 'react';
 import UserCard from './UserCard';
 import CounterApp from './CounterApp';
 import LoginForm from './LoginForm';
+import UserList from './UserList';
 
 function App() {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h2>ReactJS Learning App</h2>
+      <hr />
+      
+      {/* Day 5: Dynamic Array & Conditional Rendering */}
+      <UserList />
+
       <hr />
       
       {/* Day 4 Component */}
