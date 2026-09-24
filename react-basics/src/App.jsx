@@ -4,11 +4,17 @@ import CounterApp from './CounterApp';
 import LoginForm from './LoginForm';
 import UserList from './UserList';
 import UserProfileFetcher from './UserProfileFetcher';
+import RealApiFetcher from './RealApiFetcher'; 
 
 function App() {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h2>ReactJS Learning App</h2>
+      <hr />
+      
+      {/* Day 7: Real API Integration */}
+      <RealApiFetcher />
+      
       <hr />
       
       {/* Day 6: Lifecycle & Side Effects */}
