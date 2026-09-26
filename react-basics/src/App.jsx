@@ -1,15 +1,21 @@
 import React from 'react';
-import UserCard from './UserCard';
-import CounterApp from './CounterApp';
-import LoginForm from './LoginForm';
-import UserList from './UserList';
-import UserProfileFetcher from './UserProfileFetcher';
-import RealApiFetcher from './RealApiFetcher'; 
+import UserCard from './UserCard'; // Day 8 Module
+import CounterApp from './CounterApp'; // Day 3 Module
+import LoginForm from './LoginForm'; // Day 4 Module
+import UserList from './UserList'; // Day 5 Module
+import UserProfileFetcher from './UserProfileFetcher'; // Day 6 Module
+import RealApiFetcher from './RealApiFetcher'; // Day 7 Module
+import CustomHookDemo from './CustomHookDemo'; // Day 8 Module
 
 function App() {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h2>ReactJS Learning App</h2>
+      <hr />
+
+      {/* Day 8: Custom Hooks */}
+      <CustomHookDemo />
+      
       <hr />
       
       {/* Day 7: Real API Integration */}
